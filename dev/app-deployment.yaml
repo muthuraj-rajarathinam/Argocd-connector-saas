@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: demo-app
-          image: muthuraj07/gitapp:latest
+          image: muthuraj07/gitapp:11
           ports:
             - containerPort: 5000
 ---
