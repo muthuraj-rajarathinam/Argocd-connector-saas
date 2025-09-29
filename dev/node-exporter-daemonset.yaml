@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: DaemonSet
 metadata:
   name: node-exporter
-  namespace: demo-app
+  
 spec:
   selector:
     matchLabels:
@@ -24,7 +24,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: node-exporter
-  namespace: demo-app
+  
   labels:
     app: node-exporter
 spec:
